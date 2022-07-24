@@ -6,7 +6,7 @@ def turn (player):
 
  while TRUE:
     i = int(input (f"ход {player}. Введите номер поля по горизонтали от 0 до 2-х "))
-    j = int (input ("Введите номер поля по горизонтали от 0 до 2-х " ))
+    j = int (input ("Введите номер поля по вертикали от 0 до 2-х " ))
     if i>=0 and i<=2 :
         if  j>=0 and j<=2:
              if matrix[i][j] == " ": break
