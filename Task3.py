@@ -52,9 +52,11 @@ def check(player):
     if i == row -1: return TRUE
   return FALSE
 
-
+# начало
 player = "X"
-matrix = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
+matrix = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]] #игровое поле
+
+# игра началась
 while TRUE:
   turn (player)
   printMatrix(matrix)
